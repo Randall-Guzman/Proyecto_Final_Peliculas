@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- BOOTSTRAP-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="../CSS/style - copia.css">
+	<link rel="stylesheet" href="../CSS/footer.css">
+
+<body>
+	<section class="navigation">
+		<header>
+			<div class="dropdown_menu">
+				<label for="btn_menu" id="menu">☰</label>
+			</div>
+			<div>
+				<h1 class="logotipo">FREE MOVIES</h1>
+			</div>
+		</header>
+		<input type="checkbox" id="btn_menu">
+		<div class="container_menu">
+			<div class="cont_menu">
+				<label for="btn_menu"><i class="fa fa-times fa-2x" aria-hidden="true"></i></label>
+				<nav>
+					<br>
+					<a target="_blank" href="index.html">Inicio</a>
+					<a target="_blank" href="index.html">P&aacute;gina Principal</a>
+					<a target="_blank" href="favoritas.html">P&aacute;gina Favoritos</a>
+					<a target="_blank" href="#">Mi lista</a>
+					<a target="_blank" href="#">Configuraci&oacute;n</a>
+					<a target="_blank" href="#">Cerrar sesi&oacute;n</a>
+				</nav>
+
+			</div>
+		</div>
+	</section>
+	<!--PORTADA-->
+	<main>
+		<div class="pelicula_principal">
+			<div class="contenedor">
+				<h3 class="titulo">How to sell drugs online</h3>
+				<p class="descripcion">
+					Para impresionar a su exnovia,
+					un adolescente comienza <br>
+					a vender drogas por Internet
+					y se convierte en uno de los <br>
+					mayores narcotraficantes de Europa.
+				</p>
+				<button role="button" class="boton"><i class="fa fa-play-circle-o"
+						aria-hidden="true"></i>Reproducir</button>
+				<button role="button" class="boton"><i class="fa fa-info" aria-hidden="true"></i>Más
+					información</button>
+			</div>
+		</div>
+	</main>
+	<div class="container">
+		<!--PELICULAS POPULARES-->
+		<h1 style="text-align: center; color: white;"> Películas Favoritas </h1>
+			<div class = "row"> 
+				<div id="renderFavoritas">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!-- footer -->
+<footer>
+    <div class="footer">
+        <div class="footer_content">
+            <div class="footer_section about">
+                <h1 class="logo_text"><span>FREE</span>MOVIES</h1>
+                <p>Es una página de acceso gratuito tal y como lo indica su nombre, la cual va dirigida a toda la
+					población
+					en donde se puede encontrar varias categorías que han sido seleccionadas y adaptadas por nuestro
+					personal logrando que nuestros consumidores
+					estén a gusto consumiendo nuestro contenido.</p>
+                <div class="contact">
+                    <span><i class="fa fa-phone" aria-hidden="true"></i> +506 8686-1414</span>
+                    <span><i class="fa fa-envelope-o" aria-hidden="true"></i> info@outlook.es</span>
+                </div>
+                <div class="socials">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook " aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram " aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter " aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play " aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="footer_section links">
+                <h2>Quick Links</h2>
+                <br>
+                <ul>
+                    <a href="#"><li>Events</li></a>
+                    <a href="#"><li>Team</li></a>
+                    <a href="#"><li>Mentors</li></a>
+                    <a href="#"><li>Gallery</li></a>
+                    <a href="#"><li>Terms and Condition</li></a>
+                </ul>
+            </div>
+            <div class="footer_section contact-form">
+                <h2>Contact us</h2>
+                <br>
+                <form action="index.html" method="post">
+                    <input type="email" name="email" class="text_input contact-input" 
+                    placeholder="Your email addres...">
+                    <div>
+                        <textarea name="message" class="text_input contact-input" 
+                        placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-big" id="btn_send">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Send
+                    </button>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            &copy; FreeMvies.com | Designed by D.Luna - R.Guzm&aacute;n - J.Redondo - N.Vega
+        </div>
+    
+</footer>
+<!-- footer end-->
+	<script src="../JS/valoracion.js"></script>
+	<script src="../JS/interseccion.js"></script>
+	<script src="../JS/carousel.js"></script>
+	<script src="../JS/favoritas.js"></script>
+	<script src="https://use.fontawesome.com/1cf4292344.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
